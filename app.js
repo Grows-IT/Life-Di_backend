@@ -24,4 +24,4 @@ app.use(home);
 app.use(mycourse);
 
 app.listen(3333);
-console.log('Lide-Di backend is running in localhost:3333');
+console.log('Life-Di backend is running in localhost:3333');
