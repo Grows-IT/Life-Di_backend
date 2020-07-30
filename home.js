@@ -11,11 +11,11 @@ router.route('/journalshome')
         }, {
             journalPic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
             journalTitle: 'journal2',
-            journalInfo: 'aaaaaaaaaaaaaaaaaaaaaaaaaat'
+            journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
         }, {
             journalPic: 'https://cdn11.bigcommerce.com/s-7edce/images/stencil/1000x1000/products/9649/170851/indigo-2020-classic-anne-story-undated-diary-journal-13__79895.1572967566.jpg?c=2',
             journalTitle: 'journal3',
-            journalInfo: 'bbbbbbbbbbbbbb'
+            journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
         }]
         res.send(info);
     })
