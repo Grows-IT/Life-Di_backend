@@ -13,8 +13,20 @@ router.route('/journalshome')
             journalTitle: 'journal2',
             journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
         }, {
-            journalPic: 'https://cdn11.bigcommerce.com/s-7edce/images/stencil/1000x1000/products/9649/170851/indigo-2020-classic-anne-story-undated-diary-journal-13__79895.1572967566.jpg?c=2',
+            journalPic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
             journalTitle: 'journal3',
+            journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
+        }, {
+            journalPic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+            journalTitle: 'journal4',
+            journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
+        }, {
+            journalPic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+            journalTitle: 'journal5',
+            journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
+        }, {
+            journalPic: 'https://cdn11.bigcommerce.com/s-7edce/images/stencil/1000x1000/products/9649/170851/indigo-2020-classic-anne-story-undated-diary-journal-13__79895.1572967566.jpg?c=2',
+            journalTitle: 'journal6',
             journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
         }]
         res.send(info);
@@ -34,6 +46,18 @@ router.route('/courseshome')
             coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course3',
             courseInfo: 'course 3 is about...'
+        }, {
+            coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
+            courseTitle: 'course4',
+            courseInfo: 'course 4 is about...'
+        }, {
+            coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
+            courseTitle: 'course5',
+            courseInfo: 'course 5 is about...'
+        }, {
+            coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
+            courseTitle: 'course6',
+            courseInfo: 'course 6 is about...'
         }]
         res.send(info);
     })
