@@ -2,6 +2,7 @@ var express = require('express');
 var app = express()
 var home = require('./home');
 var mycourse = require('./mycourse');
+var course = require('./course');
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -22,6 +23,7 @@ app.get('/', function (req, res) {
 
 app.use(home);
 app.use(mycourse);
+app.use(course);
 
 app.listen(3333);
 console.log('Life-Di backend is running in localhost:3333');
