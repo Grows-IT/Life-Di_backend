@@ -62,8 +62,8 @@ const colors = {
 router.route('/getActivity')
     .get((req, res) => {
         let myEvent = [{
-            start: 'August 3, 2020 00:00',
-            end: 'August 5, 2020 15:53',
+            start: 'August 3, 2020 12:00',
+            end: 'August 3, 2020 19:30',
             title: 'วิ่งไล่ลุง',
             color: colors.green,
             allDay: true,
@@ -74,10 +74,24 @@ router.route('/getActivity')
             draggable: false,
             price: 2800
         }, {
-            // start: 'August 3, 2020 00:00',
-            // end: 'August 5, 2020 15:53',
-            start: subDays(startOfDay(new Date('August 1, 2020 09:00')), 1),
-            end: addDays(new Date('August 12, 2020 15:00'), 1),
+            // start: subDays(startOfDay(new Date('August 12, 2020 09:00')), 1),
+            // end: addDays(new Date('August 12, 2020 15:00'), 1),
+            start: 'August 12, 2020 09:00',
+            end: 'August 12, 2020 20:00',
+            title: 'วิ่งไล่เชียร์ลุง',
+            color: colors.red,
+            allDay: true,
+            resizable: {
+                beforeStart: true,
+                afterEnd: true,
+            },
+            draggable: false,
+            price: 90
+        }, {
+            // start: subDays(startOfDay(new Date('August 12, 2020 09:00')), 1),
+            // end: addDays(new Date('August 12, 2020 15:00'), 1),
+            start: 'August 12, 2020 09:00',
+            end: 'August 12, 2020 20:00',
             title: 'วิ่งไล่ลุง ep2',
             color: colors.red,
             allDay: true,
@@ -88,10 +102,10 @@ router.route('/getActivity')
             draggable: false,
             price: 9000
         }, {
-            // start: 'August 3, 2020 00:00',
-            // end: 'August 5, 2020 15:53',
-            start: subDays(startOfDay(new Date('September 9, 2020 09:00')), 1),
-            end: addDays(new Date('September 12, 2020 15:00'), 1),
+            // start: subDays(startOfDay(new Date('September 9, 2020 09:00')), 1),
+            // end: addDays(new Date('September 9, 2020 15:00'), 1),
+            start: 'September 9, 2020 08:00',
+            end: 'September 9, 2020 16:00',
             title: 'วิ่งไล่ลุง ep3',
             color: colors.green,
             allDay: true,
@@ -102,10 +116,10 @@ router.route('/getActivity')
             draggable: false,
             price: 5000
         }, {
-            // start: 'August 3, 2020 00:00',
-            // end: 'August 5, 2020 15:53',
-            start: subDays(startOfDay(new Date('September 20, 2020 09:00')), 1),
-            end: addDays(new Date('September 12, 2020 15:00'), 1),
+            // start: subDays(startOfDay(new Date('September 20, 2020 09:00')), 1),
+            // end: addDays(new Date('September 20, 2020 15:00'), 1),
+            start: 'September 20, 2020 10:00',
+            end: 'September 20, 2020 18:00',
             title: 'วิ่งไล่ลุง ep4',
             color: colors.black,
             allDay: true,
