@@ -3,6 +3,7 @@ var app = express()
 var home = require('./home');
 var mycourse = require('./mycourse');
 var course = require('./course');
+var activity = require('./activity');
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -22,6 +23,7 @@ app.get('/', function (req, res) {
 });
 
 app.use(home);
+app.use(activity);
 app.use(mycourse);
 app.use(course);
 
