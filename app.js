@@ -5,6 +5,7 @@ var mycourse = require('./mycourse');
 var course = require('./course');
 var activity = require('./activity');
 var user = require('./user');
+var journal = require('./journal');
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -28,6 +29,7 @@ app.use(activity);
 app.use(mycourse);
 app.use(course);
 app.use(user);
+app.use(journal);
 
 app.listen(3333);
 console.log('Life-Di backend is running in localhost:3333');
