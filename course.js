@@ -75,8 +75,10 @@ mycourse = [{
     courseTitle: 'Donald J. Trump',
     courseInfo: 'ชีวประวัติของ Donald J. Trump',
     courseBy: 'อ.หมู',
-    courseRating: 4.5,
-    courseReviewNumber: 24,
+    courseReview: {
+        courseRating: 4.5,
+        courseReviewNumber: 24,
+    },
     courseProgress: 15
 }, {
     courseId: 3,
@@ -84,8 +86,10 @@ mycourse = [{
     courseTitle: 'ภาษาอังกฤษในชีวิตประจำวัน',
     courseInfo: 'ภาษาอังกฤษในชีวิตประจำวัน จะสอนให้รู้เกี่ยวการสนทนาพื้นฐาน',
     courseBy: 'อ.กวาง',
-    courseRating: 5,
-    courseReviewNumber: 95,
+    courseReview: {
+        courseRating: 5,
+        courseReviewNumber: 95,
+    },
     courseProgress: 0
 }, {
     courseId: 4,
@@ -93,8 +97,10 @@ mycourse = [{
     courseTitle: 'BIG PRESCHOOL',
     courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
     courseBy: 'อ.นก',
-    courseRating: 3.8,
-    courseReviewNumber: 81,
+    courseReview: {
+        courseRating: 3.8,
+        courseReviewNumber: 81,
+    },
     courseProgress: 85
 }, {
     courseId: 5,
@@ -102,8 +108,10 @@ mycourse = [{
     courseTitle: 'การลอกการบ้านอย่างมีศิลปะ',
     courseInfo: 'on the card title and make up',
     courseBy: 'อ.พังพอน',
-    courseRating: 3.1,
-    courseReviewNumber: 20,
+    courseReview: {
+        courseRating: 3.1,
+        courseReviewNumber: 20,
+    },
     courseProgress: 100
 }, {
     courseId: 6,
@@ -111,7 +119,10 @@ mycourse = [{
     courseTitle: 'ภาษาอังกฤษ',
     courseInfo: 'bbbbbbbbbbbbbb',
     courseBy: 'อ.ไก่',
-    courseRating: 3.8,
+    courseReview: {
+        courseRating: 3.8,
+        courseReviewNumber: 5,
+    },
     courseProgress: 60
 }, {
     courseId: 7,
@@ -119,8 +130,10 @@ mycourse = [{
     courseTitle: 'QWERTY',
     courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
     courseBy: 'อ.กา',
-    courseRating: 2,
-    courseReviewNumber: 35,
+    courseReview: {
+        courseRating: 2,
+        courseReviewNumber: 35,
+    },
     courseProgress: 36
 }, {
     courseId: 8,
@@ -128,8 +141,10 @@ mycourse = [{
     courseTitle: 'If Animals Kissed Good Night',
     courseInfo: 'on the card title and make up',
     courseBy: 'อ.เป็ด',
-    courseRating: 4.2,
-    courseReviewNumber: 15,
+    courseReview: {
+        courseRating: 4.2,
+        courseReviewNumber: 15,
+    },
     courseProgress: 89
 }]
 
