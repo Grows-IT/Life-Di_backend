@@ -2,7 +2,7 @@ var express = require('express');
 
 const router = express.Router();
 
-router.route('/journalshome')
+router.route('/journalsHome')
     .get(function (req, res) {
         const info = [{
             journalPic: 'https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-cute-pets-attack-cute-cartoon-banner-image_194075.jpg',
@@ -32,7 +32,7 @@ router.route('/journalshome')
         res.send(info);
     })
 
-router.route('/courseshome')
+router.route('/coursesHome')
     .get(function (req, res) {
         const info = [{
             coursePic: 'https://smartual.ai/assets/images/course-banner.png',
@@ -62,7 +62,7 @@ router.route('/courseshome')
         res.send(info);
     })
 
-    router.route('/newshome')
+    router.route('/newsHome')
     .get(function (req, res) {
         const info = [{
             pic: 'https://image.shutterstock.com/image-vector/news-anchor-on-tv-breaking-260nw-664193674.jpg',
@@ -104,7 +104,7 @@ router.route('/courseshome')
         res.send(info);
     })
 
-router.route('/bannerhome')
+router.route('/bannerHome')
     .get(function (req, res) {
         const allpic = ['https://dict.meemodel.com/image_og/50.jpg', 'https://p0.pikist.com/photos/825/405/serene-ethereal-calm-tree-forest-nature-natural-outdoors-park.jpg']
         res.send(allpic);
