@@ -6,7 +6,7 @@ router.route('/mycourse')
     .get((req, res) => {
         console.log(req.query);
         let myCourse;
-        if (req.query.id === '3318240668198269') {
+        // if (req.query.id === '3318240668198269') {
             myCourse = [{
                 courseId: 1,
                 coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
@@ -72,65 +72,65 @@ router.route('/mycourse')
                 courseRating: 4.2,
                 courseProgress: 89
             }]
-        } else if (req.query.id === '114852582086026193162') {
-            myCourse = [{
-                courseId: 1,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
-                courseTitle: 'ABC มาเรียนกันเถอะ',
-                courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
-                courseBy: 'อ.เป็ด',
-                courseRating: 3.8,
-                courseProgress: 81
-            }, {
-                courseId: 2,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
-                courseTitle: 'misstion to the moon',
-                courseInfo: 'on the card title and make up',
-                courseBy: 'อ.ปลา',
-                courseRating: 4.5,
-                courseProgress: 61
-            }, {
-                courseId: 3,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
-                courseTitle: 'ภาษารัสเซีย',
-                courseInfo: 'มาหัดพูดภาษารัสเซียกันเถอะ',
-                courseBy: 'อ.พิราบ',
-                courseRating: 3.9,
-                courseProgress: 95
-            }, {
-                courseId: 4,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
-                courseTitle: 'จิตวิทยาเด็ก',
-                courseInfo: 'สอนเด็กอย่างไรให้เติบโตมาอนาคตดี!!',
-                courseBy: 'อ.งู',
-                courseRating: 4.5,
-                courseProgress: 8
-            }, {
-                courseId: 5,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
-                courseTitle: 'ประวัติศาสตร์สงครามโลกครั้งที่ 1',
-                courseInfo: 'on the card title and make up',
-                courseBy: 'อ.ลิง',
-                courseRating: 3.5,
-                courseProgress: 15
-            }, {
-                courseId: 6,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
-                courseTitle: 'ภาษาอังกฤษ',
-                courseInfo: 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z',
-                courseBy: 'อ.คิงคอง',
-                courseRating: 4.8,
-                courseProgress: 25
-            }, {
-                courseId: 7,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
-                courseTitle: 'ประวัติศาสตร์สงครามโลกครั้งที่ 2',
-                courseInfo: 'on the card title and make up',
-                courseBy: 'อ.เพนกวิน',
-                courseRating: 5,
-                courseProgress: 70
-            }]
-        }
+        // } else if (req.query.id === '114852582086026193162') {
+        //     myCourse = [{
+        //         courseId: 1,
+        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         courseTitle: 'ABC มาเรียนกันเถอะ',
+        //         courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
+        //         courseBy: 'อ.เป็ด',
+        //         courseRating: 3.8,
+        //         courseProgress: 81
+        //     }, {
+        //         courseId: 2,
+        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         courseTitle: 'misstion to the moon',
+        //         courseInfo: 'on the card title and make up',
+        //         courseBy: 'อ.ปลา',
+        //         courseRating: 4.5,
+        //         courseProgress: 61
+        //     }, {
+        //         courseId: 3,
+        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         courseTitle: 'ภาษารัสเซีย',
+        //         courseInfo: 'มาหัดพูดภาษารัสเซียกันเถอะ',
+        //         courseBy: 'อ.พิราบ',
+        //         courseRating: 3.9,
+        //         courseProgress: 95
+        //     }, {
+        //         courseId: 4,
+        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         courseTitle: 'จิตวิทยาเด็ก',
+        //         courseInfo: 'สอนเด็กอย่างไรให้เติบโตมาอนาคตดี!!',
+        //         courseBy: 'อ.งู',
+        //         courseRating: 4.5,
+        //         courseProgress: 8
+        //     }, {
+        //         courseId: 5,
+        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         courseTitle: 'ประวัติศาสตร์สงครามโลกครั้งที่ 1',
+        //         courseInfo: 'on the card title and make up',
+        //         courseBy: 'อ.ลิง',
+        //         courseRating: 3.5,
+        //         courseProgress: 15
+        //     }, {
+        //         courseId: 6,
+        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         courseTitle: 'ภาษาอังกฤษ',
+        //         courseInfo: 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z',
+        //         courseBy: 'อ.คิงคอง',
+        //         courseRating: 4.8,
+        //         courseProgress: 25
+        //     }, {
+        //         courseId: 7,
+        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         courseTitle: 'ประวัติศาสตร์สงครามโลกครั้งที่ 2',
+        //         courseInfo: 'on the card title and make up',
+        //         courseBy: 'อ.เพนกวิน',
+        //         courseRating: 5,
+        //         courseProgress: 70
+            // }]
+        // }
         res.send(myCourse);
     })
 
