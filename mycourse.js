@@ -9,7 +9,7 @@ router.route('/mycourse')
         // if (req.query.id === '3318240668198269') {
             myCourse = [{
                 courseId: 1,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+                coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
                 courseTitle: 'บทเรียนวิกฤตต้มยำกุ้ง',
                 courseInfo: 'เรียนรู้ประวัติศาสตร์วิกฤตต้มยำ อะไรคือสาเหตุ และเราได้บทเรียนอะไรจากวิกฤตครั้งนี้',
                 courseBy: 'อ.หนู',
@@ -17,7 +17,7 @@ router.route('/mycourse')
                 courseProgress: 35
             }, {
                 courseId: 2,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+                coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
                 courseTitle: 'Donald J. Trump',
                 courseInfo: 'ชีวประวัติของ Donald J. Trump',
                 courseBy: 'อ.หมู',
@@ -25,7 +25,7 @@ router.route('/mycourse')
                 courseProgress: 15
             }, {
                 courseId: 3,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+                coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
                 courseTitle: 'ภาษาอังกฤษในชีวิตประจำวัน',
                 courseInfo: 'ภาษาอังกฤษในชีวิตประจำวัน จะสอนให้รู้เกี่ยวการสนทนาพื้นฐาน',
                 courseBy: 'อ.กวาง',
@@ -33,7 +33,7 @@ router.route('/mycourse')
                 courseProgress: 0
             }, {
                 courseId: 4,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+                coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
                 courseTitle: 'BIG PRESCHOOL',
                 courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
                 courseBy: 'อ.นก',
@@ -41,7 +41,7 @@ router.route('/mycourse')
                 courseProgress: 85
             }, {
                 courseId: 5,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+                coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
                 courseTitle: 'การลอกการบ้านอย่างมีศิลปะ',
                 courseInfo: 'on the card title and make up',
                 courseBy: 'อ.พังพอน',
@@ -49,7 +49,7 @@ router.route('/mycourse')
                 courseProgress: 100
             }, {
                 courseId: 6,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+                coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
                 courseTitle: 'ภาษาอังกฤษ',
                 courseInfo: 'bbbbbbbbbbbbbb',
                 courseBy: 'อ.ไก่',
@@ -57,7 +57,7 @@ router.route('/mycourse')
                 courseProgress: 60
             }, {
                 courseId: 7,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+                coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
                 courseTitle: 'QWERTY',
                 courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
                 courseBy: 'อ.กา',
@@ -65,7 +65,7 @@ router.route('/mycourse')
                 courseProgress: 36
             }, {
                 courseId: 8,
-                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+                coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
                 courseTitle: 'If Animals Kissed Good Night',
                 courseInfo: 'on the card title and make up',
                 courseBy: 'อ.เป็ด',
@@ -75,7 +75,7 @@ router.route('/mycourse')
         // } else if (req.query.id === '114852582086026193162') {
         //     myCourse = [{
         //         courseId: 1,
-        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
         //         courseTitle: 'ABC มาเรียนกันเถอะ',
         //         courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
         //         courseBy: 'อ.เป็ด',
@@ -83,7 +83,7 @@ router.route('/mycourse')
         //         courseProgress: 81
         //     }, {
         //         courseId: 2,
-        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
         //         courseTitle: 'misstion to the moon',
         //         courseInfo: 'on the card title and make up',
         //         courseBy: 'อ.ปลา',
@@ -91,7 +91,7 @@ router.route('/mycourse')
         //         courseProgress: 61
         //     }, {
         //         courseId: 3,
-        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
         //         courseTitle: 'ภาษารัสเซีย',
         //         courseInfo: 'มาหัดพูดภาษารัสเซียกันเถอะ',
         //         courseBy: 'อ.พิราบ',
@@ -99,7 +99,7 @@ router.route('/mycourse')
         //         courseProgress: 95
         //     }, {
         //         courseId: 4,
-        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
         //         courseTitle: 'จิตวิทยาเด็ก',
         //         courseInfo: 'สอนเด็กอย่างไรให้เติบโตมาอนาคตดี!!',
         //         courseBy: 'อ.งู',
@@ -107,7 +107,7 @@ router.route('/mycourse')
         //         courseProgress: 8
         //     }, {
         //         courseId: 5,
-        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
         //         courseTitle: 'ประวัติศาสตร์สงครามโลกครั้งที่ 1',
         //         courseInfo: 'on the card title and make up',
         //         courseBy: 'อ.ลิง',
@@ -115,7 +115,7 @@ router.route('/mycourse')
         //         courseProgress: 15
         //     }, {
         //         courseId: 6,
-        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
         //         courseTitle: 'ภาษาอังกฤษ',
         //         courseInfo: 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z',
         //         courseBy: 'อ.คิงคอง',
@@ -123,7 +123,7 @@ router.route('/mycourse')
         //         courseProgress: 25
         //     }, {
         //         courseId: 7,
-        //         coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
+        //         coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
         //         courseTitle: 'ประวัติศาสตร์สงครามโลกครั้งที่ 2',
         //         courseInfo: 'on the card title and make up',
         //         courseBy: 'อ.เพนกวิน',
