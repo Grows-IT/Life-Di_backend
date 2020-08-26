@@ -5,7 +5,7 @@ const router = express.Router();
 router.route('/journalsHome')
     .get(function (req, res) {
         const info = [{
-            journalPic: 'https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-cute-pets-attack-cute-cartoon-banner-image_194075.jpg',
+            journalPic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
             journalTitle: 'journal1',
             journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
         }, {
@@ -13,7 +13,7 @@ router.route('/journalsHome')
             journalTitle: 'journal2',
             journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
         }, {
-            journalPic: 'https://www.aware.org.sg/wp-content/uploads/Ria-Caregivers-600x511.jpg',
+            journalPic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
             journalTitle: 'journal3',
             journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
         }, {
@@ -35,11 +35,11 @@ router.route('/journalsHome')
 router.route('/coursesHome')
     .get(function (req, res) {
         const info = [{
-            coursePic: 'https://smartual.ai/assets/images/course-banner.png',
+            coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course1',
             courseInfo: 'course 1 is about...'
         }, {
-            coursePic: 'https://www.itsolution.co.th/training/wp-content/uploads/2014/11/course-service3.jpg',
+            coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course2',
             courseInfo: 'course 2 is about...'
         }, {

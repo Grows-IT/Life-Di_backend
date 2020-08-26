@@ -1,134 +1,139 @@
-const { startOfDay, endOfDay, subDays, addDays, endOfMonth, isSameDay, isSameMonth, addHours } = require('date-fns');
-
 var express = require('express');
 const router = express.Router();
 
 const colors = {
     green: {
         primary: '#4BB543',
-        secondary: '#FAE3E3',
     },
     red: {
         primary: '#ff0000',
-        secondary: '#D1E8FF',
     },
-    black: {
-        primary: '#001400',
-        secondary: '#FDF1BA',
+    blue: {
+        primary: '#2a9df4',
     }
 }
-
-// myEvent = [
-//     {
-//         start: 'August 3, 2020 00:00',
-//         end: 'August 5, 2020 15:53',
-//         title: 'วิ่งไล่ลุง',
-//         color: colors.green,
-//         actions: this.actions,
-//         allDay: true,
-//         resizable: {
-//             beforeStart: true,
-//             afterEnd: true,
-//         },
-//         draggable: true,
-//     },
-//     {
-//         start: startOfDay(new Date()),
-//         title: 'An event with no end date',
-//         color: colors.yellow,
-//         actions: this.actions,
-//     },
-//     {
-//         start: subDays(endOfMonth(new Date()), 3),
-//         end: addDays(endOfMonth(new Date()), 3),
-//         title: 'A long event that spans 2 months',
-//         color: colors.blue,
-//         allDay: true,
-//     },
-//     {
-//         start: addHours(startOfDay(new Date()), 2),
-//         end: addHours(new Date(), 2),
-//         title: 'A draggable and resizable event',
-//         color: colors.yellow,
-//         actions: this.actions,
-//         resizable: {
-//             beforeStart: true,
-//             afterEnd: true,
-//         },
-//         draggable: true,
-// },
-// ];
 
 router.route('/getActivity')
     .get((req, res) => {
         let myEvent = [{
-            start: 'August 3, 2020 12:00',
-            end: 'August 3, 2020 19:30',
+            start: '13 August 2020, 12:00',
+            end: '13 August 2020, 19:30',
+            preStart: '1 August 2020, 12:00',
+            preEnd: '10 August 2020, 12:00',
             title: 'วิ่งไล่ลุง',
             color: colors.green,
             allDay: true,
+            detail: 'วิ่งไล่ลุง วิ่งไล่ลุง วิ่งไล่ลุง ไป๊ ไป ชิ่วๆ',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 2800
+            price: 2800,
+            registeredUser: 437,
+            maximumUser: 500
         }, {
-            // start: subDays(startOfDay(new Date('August 12, 2020 09:00')), 1),
-            // end: addDays(new Date('August 12, 2020 15:00'), 1),
-            start: 'August 12, 2020 09:00',
-            end: 'August 12, 2020 20:00',
+            start: '12 August 2020, 09:00',
+            end: '12 August 2020, 20:00',
+            preStart: '1 August 2020, 12:00',
+            preEnd: '10 August 2020, 12:00',
             title: 'วิ่งไล่เชียร์ลุง',
             color: colors.red,
             allDay: true,
+            detail: 'วิ่งไล่ลุง วิ่งไล่ลุง วิ่งไล่ลุง ไป๊ ไป ชิ่วๆ',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 90
+            price: 90,
+            registeredUser: 250,
+            maximumUser: 250
         }, {
-            // start: subDays(startOfDay(new Date('August 12, 2020 09:00')), 1),
-            // end: addDays(new Date('August 12, 2020 15:00'), 1),
-            start: 'August 12, 2020 09:00',
-            end: 'August 12, 2020 20:00',
+            start: '12 August 2020, 09:00',
+            end: '12 August 2020, 20:00',
+            preStart: '3 Jane 2020, 12:00',
+            preEnd: '3 August 2020, 12:00',
             title: 'วิ่งไล่ลุง ep2',
             color: colors.red,
             allDay: true,
+            detail: 'วิ่งไล่ลุง 2 ep ละนะ ไปเถ๊อะ',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 9000
+            price: 9000,
+            registeredUser: 100,
+            maximumUser: 100
         }, {
-            // start: subDays(startOfDay(new Date('September 9, 2020 09:00')), 1),
-            // end: addDays(new Date('September 9, 2020 15:00'), 1),
-            start: 'September 9, 2020 08:00',
-            end: 'September 9, 2020 16:00',
+            start: '9 September 2020, 08:00',
+            end: '9 September 2020, 16:00',
+            preStart: '3 August 2020, 12:00',
+            preEnd: '3 September 2020, 12:00',
             title: 'วิ่งไล่ลุง ep3',
             color: colors.green,
             allDay: true,
+            detail: 'วิ่งไล่ลุง ep3 วิ่งมา 3 รอบยังไม่ไปอีก',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 5000
+            price: 5000,
+            registeredUser: 788,
+            maximumUser: 1000
         }, {
-            // start: subDays(startOfDay(new Date('September 20, 2020 09:00')), 1),
-            // end: addDays(new Date('September 20, 2020 15:00'), 1),
-            start: 'September 20, 2020 10:00',
-            end: 'September 20, 2020 18:00',
+            start: '20 September 2020, 10:00',
+            end: '20 September 2020, 18:00',
+            preStart: '3 August 2020, 12:00',
+            preEnd: '3 September 2020, 12:00',
             title: 'วิ่งไล่ลุง ep4',
-            color: colors.black,
+            color: colors.blue,
             allDay: true,
+            detail: 'วิ่งไล่ลุง ep4 วิ่งๆเข้าไป จนกว่าจะออก',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 1500
+            price: 1500,
+            registeredUser: 218,
+            maximumUser: 400
+        }, {
+            preStart: '1 August 2020, 10:00',
+            preEnd: '27 August 2020, 18:00',
+            start: '28 August 2020, 08:00',
+            end: '28 August 2020, 19:00',
+            title: 'วิ่งไล่ลุง ep4',
+            color: colors.blue,
+            allDay: true,
+            detail: 'วิ่งไล่ลุง ep5 วิ่งๆเข้าไป จนกว่าจะออก',
+            resizable: {
+                beforeStart: true,
+                afterEnd: true,
+            },
+            draggable: false,
+            price: 900,
+            registeredUser: 15,
+            maximumUser: 800
+        }, {
+            preStart: '1 August 2020, 10:00',
+            preEnd: '1 September 2020, 18:00',
+            start: '13 September 2020, 08:00',
+            end: '13 September 2020, 19:00',
+            title: 'ตามหาใจแอ๋น กับซุเนโอ๊ะที่หายไป',
+            color: colors.red,
+            allDay: true,
+            detail: 'ตามหาใจแอ๋น จนกว่าจะเจอ',
+            resizable: {
+                beforeStart: true,
+                afterEnd: true,
+            },
+            draggable: false,
+            price: 1500,
+            registeredUser: 5000,
+            maximumUser: 5000
         }]
         res.send(myEvent);
     })

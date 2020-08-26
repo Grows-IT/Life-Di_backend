@@ -9,7 +9,7 @@ router.route('/mycourse')
         if (req.query.id === '3318240668198269') {
             myCourse = [{
                 courseId: 1,
-                coursePic: 'https://www.aware.org.sg/wp-content/uploads/Ria-Caregivers-600x511.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'บทเรียนวิกฤตต้มยำกุ้ง',
                 courseInfo: 'เรียนรู้ประวัติศาสตร์วิกฤตต้มยำ อะไรคือสาเหตุ และเราได้บทเรียนอะไรจากวิกฤตครั้งนี้',
                 courseBy: 'อ.หนู',
@@ -17,7 +17,7 @@ router.route('/mycourse')
                 courseProgress: 35
             }, {
                 courseId: 2,
-                coursePic: 'https://images-na.ssl-images-amazon.com/images/I/51xzDg7YGRL._SX329_BO1,204,203,200_.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'Donald J. Trump',
                 courseInfo: 'ชีวประวัติของ Donald J. Trump',
                 courseBy: 'อ.หมู',
@@ -25,7 +25,7 @@ router.route('/mycourse')
                 courseProgress: 15
             }, {
                 courseId: 3,
-                coursePic: 'https://cdn11.bigcommerce.com/s-7edce/images/stencil/1000x1000/products/9649/170851/indigo-2020-classic-anne-story-undated-diary-journal-13__79895.1572967566.jpg?c=2',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'ภาษาอังกฤษในชีวิตประจำวัน',
                 courseInfo: 'ภาษาอังกฤษในชีวิตประจำวัน จะสอนให้รู้เกี่ยวการสนทนาพื้นฐาน',
                 courseBy: 'อ.กวาง',
@@ -33,7 +33,7 @@ router.route('/mycourse')
                 courseProgress: 0
             }, {
                 courseId: 4,
-                coursePic: 'https://images-na.ssl-images-amazon.com/images/I/61xTjuVrwsL._SX375_BO1,204,203,200_.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'BIG PRESCHOOL',
                 courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
                 courseBy: 'อ.นก',
@@ -41,7 +41,7 @@ router.route('/mycourse')
                 courseProgress: 85
             }, {
                 courseId: 5,
-                coursePic: 'https://images-na.ssl-images-amazon.com/images/I/51aDh-YMFAL._SX331_BO1,204,203,200_.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'การลอกการบ้านอย่างมีศิลปะ',
                 courseInfo: 'on the card title and make up',
                 courseBy: 'อ.พังพอน',
@@ -49,7 +49,7 @@ router.route('/mycourse')
                 courseProgress: 100
             }, {
                 courseId: 6,
-                coursePic: 'https://cdn11.bigcommerce.com/s-7edce/images/stencil/1000x1000/products/9649/170851/indigo-2020-classic-anne-story-undated-diary-journal-13__79895.1572967566.jpg?c=2',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'ภาษาอังกฤษ',
                 courseInfo: 'bbbbbbbbbbbbbb',
                 courseBy: 'อ.ไก่',
@@ -57,7 +57,7 @@ router.route('/mycourse')
                 courseProgress: 60
             }, {
                 courseId: 7,
-                coursePic: 'https://www.aware.org.sg/wp-content/uploads/Ria-Caregivers-600x511.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'QWERTY',
                 courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
                 courseBy: 'อ.กา',
@@ -65,7 +65,7 @@ router.route('/mycourse')
                 courseProgress: 36
             }, {
                 courseId: 8,
-                coursePic: 'https://images-na.ssl-images-amazon.com/images/I/51iHM-M+ADL._SX258_BO1,204,203,200_.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'If Animals Kissed Good Night',
                 courseInfo: 'on the card title and make up',
                 courseBy: 'อ.เป็ด',
@@ -75,7 +75,7 @@ router.route('/mycourse')
         } else if (req.query.id === '114852582086026193162') {
             myCourse = [{
                 courseId: 1,
-                coursePic: 'https://www.aware.org.sg/wp-content/uploads/Ria-Caregivers-600x511.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'ABC มาเรียนกันเถอะ',
                 courseInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content',
                 courseBy: 'อ.เป็ด',
@@ -83,7 +83,7 @@ router.route('/mycourse')
                 courseProgress: 81
             }, {
                 courseId: 2,
-                coursePic: 'https://images-na.ssl-images-amazon.com/images/I/51wOOMQ+F3L._SY344_BO1,204,203,200_.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'misstion to the moon',
                 courseInfo: 'on the card title and make up',
                 courseBy: 'อ.ปลา',
@@ -91,7 +91,7 @@ router.route('/mycourse')
                 courseProgress: 61
             }, {
                 courseId: 3,
-                coursePic: 'https://cdn11.bigcommerce.com/s-7edce/images/stencil/1000x1000/products/9649/170851/indigo-2020-classic-anne-story-undated-diary-journal-13__79895.1572967566.jpg?c=2',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'ภาษารัสเซีย',
                 courseInfo: 'มาหัดพูดภาษารัสเซียกันเถอะ',
                 courseBy: 'อ.พิราบ',
@@ -99,7 +99,7 @@ router.route('/mycourse')
                 courseProgress: 95
             }, {
                 courseId: 4,
-                coursePic: 'https://www.aware.org.sg/wp-content/uploads/Ria-Caregivers-600x511.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'จิตวิทยาเด็ก',
                 courseInfo: 'สอนเด็กอย่างไรให้เติบโตมาอนาคตดี!!',
                 courseBy: 'อ.งู',
@@ -107,7 +107,7 @@ router.route('/mycourse')
                 courseProgress: 8
             }, {
                 courseId: 5,
-                coursePic: 'https://images-na.ssl-images-amazon.com/images/I/41gRbWB7I-L._SX329_BO1,204,203,200_.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'ประวัติศาสตร์สงครามโลกครั้งที่ 1',
                 courseInfo: 'on the card title and make up',
                 courseBy: 'อ.ลิง',
@@ -115,7 +115,7 @@ router.route('/mycourse')
                 courseProgress: 15
             }, {
                 courseId: 6,
-                coursePic: 'https://cdn11.bigcommerce.com/s-7edce/images/stencil/1000x1000/products/9649/170851/indigo-2020-classic-anne-story-undated-diary-journal-13__79895.1572967566.jpg?c=2',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'ภาษาอังกฤษ',
                 courseInfo: 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z',
                 courseBy: 'อ.คิงคอง',
@@ -123,7 +123,7 @@ router.route('/mycourse')
                 courseProgress: 25
             }, {
                 courseId: 7,
-                coursePic: 'https://images-na.ssl-images-amazon.com/images/I/61xTjuVrwsL._SX375_BO1,204,203,200_.jpg',
+                coursePic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
                 courseTitle: 'ประวัติศาสตร์สงครามโลกครั้งที่ 2',
                 courseInfo: 'on the card title and make up',
                 courseBy: 'อ.เพนกวิน',
