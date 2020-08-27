@@ -37,32 +37,38 @@ router.route('/coursesHome')
         const info = [{
             coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course1',
-            courseInfo: 'course 1 is about...'
+            courseInfo: 'course 1 is about...',
+            price: 3500
         }, {
             coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course2',
-            courseInfo: 'course 2 is about...'
+            courseInfo: 'course 2 is about...',
+            price: 1900
         }, {
             coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course3',
-            courseInfo: 'course 3 is about...'
+            courseInfo: 'course 3 is about...',
+            price: 990
         }, {
             coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course4',
-            courseInfo: 'course 4 is about...'
+            courseInfo: 'course 4 is about...',
+            price: 2000
         }, {
             coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course5',
-            courseInfo: 'course 5 is about...'
+            courseInfo: 'course 5 is about...',
+            price: 4500
         }, {
             coursePic: 'https://www.csqkynaenglish.com/images/csqkynaenglish/course_default.jpg',
             courseTitle: 'course6',
-            courseInfo: 'course 6 is about...'
+            courseInfo: 'course 6 is about...',
+            price: 2600
         }]
         res.send(info);
     })
 
-    router.route('/newsHome')
+router.route('/newsHome')
     .get(function (req, res) {
         const info = [{
             pic: 'https://image.shutterstock.com/image-vector/news-anchor-on-tv-breaking-260nw-664193674.jpg',
@@ -108,5 +114,20 @@ router.route('/bannerHome')
     .get(function (req, res) {
         const allpic = ['https://dict.meemodel.com/image_og/50.jpg', 'https://p0.pikist.com/photos/825/405/serene-ethereal-calm-tree-forest-nature-natural-outdoors-park.jpg']
         res.send(allpic);
+    })
+
+router.route('/cart')
+    .get((req, res) => {
+        const cart = [{
+            name: 'วิกฤตต้มยำกุ้ง บทเรียนจากประวัติศาสคร์',
+            price: 4500
+        }, {
+            name: 'ชีวประวัติของ Donald J. Trump',
+            price: 3500
+        }, {
+            name: 'ภาษาอังกฤษในชีวิตประจำวัน',
+            price: 2500
+        }]
+        res.send(cart);
     })
 module.exports = router;
