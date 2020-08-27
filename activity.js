@@ -20,16 +20,16 @@ router.route('/getActivity')
             end: '13 August 2020, 19:30',
             preStart: '1 August 2020, 12:00',
             preEnd: '10 August 2020, 12:00',
-            title: 'วิ่งไล่ลุง',
+            title: 'วิ่งเพื่อสุขภาพ',
             color: colors.green,
             allDay: true,
-            detail: 'วิ่งไล่ลุง วิ่งไล่ลุง วิ่งไล่ลุง ไป๊ ไป ชิ่วๆ',
+            detail: 'วิ่งเพื่อเพิ่มความแข็งแรงให้ร่างกาย',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 2800,
+            price: 800,
             registeredUser: 437,
             maximumUser: 500
         }, {
@@ -37,16 +37,16 @@ router.route('/getActivity')
             end: '12 August 2020, 20:00',
             preStart: '1 August 2020, 12:00',
             preEnd: '10 August 2020, 12:00',
-            title: 'วิ่งไล่เชียร์ลุง',
+            title: 'วาดรูป',
             color: colors.red,
             allDay: true,
-            detail: 'วิ่งไล่ลุง วิ่งไล่ลุง วิ่งไล่ลุง ไป๊ ไป ชิ่วๆ',
+            detail: 'เปลี่ยนการวาดภาพของคุณให้มีเทคนิคมากยิ่งขึ้น!',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 90,
+            price: 1500,
             registeredUser: 250,
             maximumUser: 250
         }, {
@@ -54,16 +54,16 @@ router.route('/getActivity')
             end: '12 August 2020, 20:00',
             preStart: '3 Jane 2020, 12:00',
             preEnd: '3 August 2020, 12:00',
-            title: 'วิ่งไล่ลุง ep2',
+            title: 'ทำเครื่องประดับด้วยตัวเอง',
             color: colors.red,
             allDay: true,
-            detail: 'วิ่งไล่ลุง 2 ep ละนะ ไปเถ๊อะ',
+            detail: 'สร้างสรรค์เครื่องประดับที่ไม่มีเหมือนใครบนโลก!',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 9000,
+            price: 5000,
             registeredUser: 100,
             maximumUser: 100
         }, {
@@ -71,16 +71,16 @@ router.route('/getActivity')
             end: '9 September 2020, 16:00',
             preStart: '3 August 2020, 12:00',
             preEnd: '3 September 2020, 12:00',
-            title: 'วิ่งไล่ลุง ep3',
+            title: 'สบู่อโรม่า',
             color: colors.green,
             allDay: true,
-            detail: 'วิ่งไล่ลุง ep3 วิ่งมา 3 รอบยังไม่ไปอีก',
+            detail: 'สรรค์สร้างสบู่รูปแบบและกลิ่นที่คุณเลือกเองได้!',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 5000,
+            price: 1000,
             registeredUser: 788,
             maximumUser: 1000
         }, {
@@ -88,16 +88,16 @@ router.route('/getActivity')
             end: '20 September 2020, 18:00',
             preStart: '3 August 2020, 12:00',
             preEnd: '3 September 2020, 12:00',
-            title: 'วิ่งไล่ลุง ep4',
+            title: 'ปลูกต้นกระบองเพชร',
             color: colors.blue,
             allDay: true,
-            detail: 'วิ่งไล่ลุง ep4 วิ่งๆเข้าไป จนกว่าจะออก',
+            detail: 'สอนให้คุณได้เข้าใจธรรมชาติของแคคตัส และรู้เทคนิคเคล็ดลับเกี่ยวกับการปลูกต้นกระบองเพชร',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 1500,
+            price: 500,
             registeredUser: 218,
             maximumUser: 400
         }, {
@@ -105,16 +105,16 @@ router.route('/getActivity')
             preEnd: '27 August 2020, 18:00',
             start: '28 August 2020, 08:00',
             end: '28 August 2020, 19:00',
-            title: 'วิ่งไล่ลุง ep4',
+            title: 'ปั้นดินเผา',
             color: colors.blue,
             allDay: true,
-            detail: 'วิ่งไล่ลุง ep5 วิ่งๆเข้าไป จนกว่าจะออก',
+            detail: 'ทำงานปั้นเกี่ยวกับเครื่องปั้นดินเผา เพ้นท์ลดลายต่างๆ ลงไปบนภาชนะ เซรามิค',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
             },
             draggable: false,
-            price: 900,
+            price: 2000,
             registeredUser: 15,
             maximumUser: 800
         }, {
@@ -122,10 +122,10 @@ router.route('/getActivity')
             preEnd: '1 September 2020, 18:00',
             start: '13 September 2020, 08:00',
             end: '13 September 2020, 19:00',
-            title: 'ตามหาใจแอ๋น กับซุเนโอ๊ะที่หายไป',
+            title: 'สอนปักผ้า',
             color: colors.red,
             allDay: true,
-            detail: 'ตามหาใจแอ๋น จนกว่าจะเจอ',
+            detail: 'เหมาะมากๆ สำหรับสาย craft ที่เน้นการถักกับผ้าไม่ว่าจะเป็นหมวกดอกไม้ ถักอัฟกัน ปักตะกร้า ปะ-ชุน',
             resizable: {
                 beforeStart: true,
                 afterEnd: true,
