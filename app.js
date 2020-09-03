@@ -8,6 +8,7 @@ var user = require('./user');
 var journal = require('./journal');
 var systemReport = require('./systemReport');
 var webboard = require('./webboard');
+var notification = require('./notification');
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -27,6 +28,7 @@ app.get('/', function (req, res) {
 });
 
 app.use(home);
+app.use(notification);
 app.use(activity);
 app.use(mycourse);
 app.use(course);
