@@ -5,7 +5,7 @@ const router = express.Router();
 router.route('/journal')
     .get(function (req, res) {
         const info = {
-            pic: 'https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-cute-pets-attack-cute-cartoon-banner-image_194075.jpg',
+            pic: 'https://marketplace.canva.com/EADan_NluPk/2/0/800w/canva-explore-brush-script-facebook-cover-gQRCaWeMGjQ.jpg',
             title: 'บทความที่ 1',
             info: 'Some quick example text to build on the card title and make up the bulk of the cards content',
             count: '2,145',
