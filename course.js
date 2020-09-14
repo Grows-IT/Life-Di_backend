@@ -38,7 +38,7 @@ mycourse = [{
         courseBy: {
             name: 'ดร.มะลิ',
             description: 'อย่าทำวันนี้ให้ดีที่สุด เพราะวันพรุ่งนี้จะไม่มีไรทำ',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg'
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png'
         },
     },
     courseReview: {
@@ -46,14 +46,14 @@ mycourse = [{
         courseReviewNumber: 30,
         review: [{
             userName: 'นาย วันจันทร์',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg',
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png',
             title: 'เข้าใจง่ายดี สอนรู้เรื่อง',
             comment: 'ตอนแรกคิดว่าจะสอนเข้าใจยาก เรียนไปทีแรกถึงกับหลับ รอบที่สองเลยมาลองดูใหม่ก็หลับเหมือนกัน รอบที่สามเข้าใจเลย ว่าต้องไม่เรียนแล้ว',
             date: '25/4/2020',
             rating: 3
         }, {
             userName: 'นาย วันอังคาร',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg',
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png',
             title: 'สอนสนุกมากกก เข้าใจ',
             comment: 'สอนดีมาก',
             date: '4/9/2020',
@@ -63,12 +63,12 @@ mycourse = [{
     chatCourse: {
         comment: [{
             userName: 'นาย วันพุธ',
-            profilePic: 'https://www.thebangkokinsight.com/wp-content/uploads/2019/10/223178.jpg',
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png',
             comment: 'ตอนแรกคิดว่าจะสอนเข้าใจยาก เรียนไปทีแรกถึงกับหลับ รอบที่สองเลยมาลองดูใหม่ก็หลับเหมือนกัน รอบที่สามเข้าใจเลยว่าไม่ต้องเรียนแล้ว',
             date: '25/4/2020',
         }, {
             userName: 'นาย วันพฤหัส',
-            profilePic: 'https://www.thairath.co.th/media/dFQROr7oWzulq5FZYSemi26hBQEHjrwfF6LOpyg9o8bAGYjFBiXxdVFPoT18cnz8gF4.jpg',
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png',
             comment: 'สอนดีมาก',
             date: '4/9/2020',
         }]
@@ -92,7 +92,7 @@ mycourse = [{
         courseBy: {
             name: 'อ.อัญชัน',
             description: 'อย่าทำวันนี้ให้ดีที่สุด เพราะวันพรุ่งนี้จะไม่มีไรทำ',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg'
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png'
         },
     },
 }, {
@@ -114,7 +114,7 @@ mycourse = [{
         courseBy: {
             name: 'อ.บานไม่รู้โรย',
             description: 'อย่าทำวันนี้ให้ดีที่สุด เพราะวันพรุ่งนี้จะไม่มีไรทำ',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg'
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png'
         },
     },
 }, {
@@ -136,7 +136,7 @@ mycourse = [{
         courseBy: {
             name: 'ผศ.กล้วยไม้',
             description: 'อย่าทำวันนี้ให้ดีที่สุด เพราะวันพรุ่งนี้จะไม่มีไรทำ',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg'
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png'
         },
     },
 
@@ -159,7 +159,7 @@ mycourse = [{
         courseBy: {
             name: 'รศ.ดาวเรือง',
             description: 'อย่าทำวันนี้ให้ดีที่สุด เพราะวันพรุ่งนี้จะไม่มีไรทำ',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg'
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png'
         },
     },
 
@@ -182,7 +182,7 @@ mycourse = [{
         courseBy: {
             name: 'อ.ชบา',
             description: 'อย่าทำวันนี้ให้ดีที่สุด เพราะวันพรุ่งนี้จะไม่มีไรทำ',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg'
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png'
         },
     },
 
@@ -205,7 +205,7 @@ mycourse = [{
         courseBy: {
             name: 'อ.กุหลาบ',
             description: 'อย่าทำวันนี้ให้ดีที่สุด เพราะวันพรุ่งนี้จะไม่มีไรทำ',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg'
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png'
         },
     },
 
@@ -228,7 +228,7 @@ mycourse = [{
         courseBy: {
             name: 'รศ.ลินลี่',
             description: 'อย่าทำวันนี้ให้ดีที่สุด เพราะวันพรุ่งนี้จะไม่มีไรทำ',
-            profilePic: 'https://storage.thaipost.net/main/uploads/photos/big/20190412/image_big_5caff2dcf29fe.jpg'
+            profilePic: 'https://humanimals.co.nz/wp-content/uploads/2019/11/blank-profile-picture-973460_640.png'
         },
     },
 }]
