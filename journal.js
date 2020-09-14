@@ -5,13 +5,8 @@ const router = express.Router();
 router.route('/journal')
     .get(function (req, res) {
         const info = {
-<<<<<<< HEAD
             pic: 'https://www.thewellnessworkshop.org/wp-content/uploads/2014/01/fruit-banner.jpg',
             title: 'กินแบบ “เมดิเตอร์เรเนียน” ไขมันดี คาร์บดี เป็นอย่างไร?',
-=======
-            pic: 'https://marketplace.canva.com/EADan_NluPk/2/0/800w/canva-explore-brush-script-facebook-cover-gQRCaWeMGjQ.jpg',
-            title: 'บทความที่ 1',
->>>>>>> e6b0d74ceb13281c27c487f9379cb73c0a2cb2ad
             info: 'Some quick example text to build on the card title and make up the bulk of the cards content',
             count: '2,145',
             date: '1/2/2019'
