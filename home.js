@@ -5,9 +5,9 @@ const router = express.Router();
 router.route('/journalsHome')
     .get(function (req, res) {
         const info = [{
-            journalPic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
-            journalTitle: 'journal1',
-            journalInfo: 'Some quick example text to build on the card title and make up the bulk of the cards content'
+            journalPic: 'https://www.thewellnessworkshop.org/wp-content/uploads/2014/01/fruit-banner.jpg',
+            journalTitle: 'กินแบบ “เมดิเตอร์เรเนียน” ไขมันดี คาร์บดี เป็นอย่างไร?',
+            journalInfo: 'นอกจากอาหารคลีนที่แบบที่เรารู้กันดีอยู่แล้วว่าต้องกินแบบที่ปรุงอาหารน้อยๆ....'
         }, {
             journalPic: 'https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/9c/83/t-or-1140-the-easter-journal-story-powerpoint-_ver_3.jpg',
             journalTitle: 'journal2',
@@ -71,9 +71,9 @@ router.route('/coursesHome')
 router.route('/newsHome')
     .get(function (req, res) {
         const info = [{
-            pic: 'https://image.shutterstock.com/image-vector/news-anchor-on-tv-breaking-260nw-664193674.jpg',
-            title: 'news1',
-            info: 'news 1 is about...',
+            pic: 'https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-healthy-lifestyle-for-all-image_166269.jpg',
+            title: 'ห่วงวิถีชีวิตคอนโด เสี่ยงปัญหาสุขภาพ',
+            info: 'ปัจจุบันผู้คนนิยมเลือกพักอาศัยอาคารชุด หรือคอนโดมิเนียมมากขึ้น...',
             count: '100',
             date: '8/5/2010'
         }, {
