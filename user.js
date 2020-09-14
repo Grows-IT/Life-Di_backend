@@ -6,63 +6,63 @@ router.route('/user')
     .get((req, res) => {
         const user = [{
             email: 'a@a.com',
-            name: 'ปลาหยุด',
-            lastname: 'อังคารโอชา',
+            name: 'แอปเปิ้ล',
+            lastname: 'รักผลไม้',
             provider: 'Facebook'
         }, {
             email: 'b@b.com',
-            name: 'ปลาไม่หยุด',
-            lastname: 'อังคารโอชา',
+            name: 'มะพร้าว',
+            lastname: 'รักผลไม้',
             provider: 'Google'
         }, {
             email: 'c@c.com',
-            name: 'ปลาเกือบหยุด',
-            lastname: 'อังคารโอชา',
+            name: 'แตงโม',
+            lastname: 'รักผลไม้',
             provider: '-'
         }, {
             email: 'd@d.com',
-            name: 'ปลาหยัด',
-            lastname: 'อังคารโอชา',
+            name: 'มะม่วง',
+            lastname: 'รักผลไม้',
             provider: 'Facebook'
         },{
             email: 'a@a.com',
-            name: 'ปลาหยุด',
-            lastname: 'อังคารโอชา',
+            name: 'แอปเปิ้ล',
+            lastname: 'รักผลไม้',
             provider: 'Facebook'
         }, {
             email: 'b@b.com',
-            name: 'ปลาไม่หยุด',
-            lastname: 'อังคารโอชา',
+            name: 'มะพร้าว',
+            lastname: 'รักผลไม้',
             provider: 'Google'
         }, {
             email: 'c@c.com',
-            name: 'ปลาเกือบหยุด',
-            lastname: 'อังคารโอชา',
+            name: 'แตงโม',
+            lastname: 'รักผลไม้',
             provider: '-'
         }, {
             email: 'd@d.com',
-            name: 'ปลาหยัด',
-            lastname: 'อังคารโอชา',
+            name: 'มะม่วง',
+            lastname: 'รักผลไม้',
             provider: 'Facebook'
         },{
             email: 'a@a.com',
-            name: 'ปลาหยุด',
-            lastname: 'อังคารโอชา',
+            name: 'แอปเปิ้ล',
+            lastname: 'รักผลไม้',
             provider: 'Facebook'
         }, {
             email: 'b@b.com',
-            name: 'ปลาไม่หยุด',
-            lastname: 'อังคารโอชา',
+            name: 'มะพร้าว',
+            lastname: 'รักผลไม้',
             provider: 'Google'
         }, {
             email: 'c@c.com',
-            name: 'ปลาเกือบหยุด',
-            lastname: 'อังคารโอชา',
+            name: 'แตงโม',
+            lastname: 'รักผลไม้',
             provider: '-'
         }, {
             email: 'd@d.com',
-            name: 'ปลาหยัด',
-            lastname: 'อังคารโอชา',
+            name: 'มะม่วง',
+            lastname: 'รักผลไม้',
             provider: 'Facebook'
         }]
         res.send(user);

@@ -27,4 +27,7 @@ router.route('/notification')
         }]
         res.send(notifications);
     })
+    .post((req, res) => { 
+        
+    })
 module.exports = router;
